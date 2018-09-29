@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+  margin-top: 70px;
+}
+
+
+.logo {
+  height: 50px;
+  max-width: 100%;
+}
+
+
+.teas {
+ padding: 10px;
+}
+
+.teas img {
+ width: 300px;
+ height: 200px;
+
+}
+
+
+
+
+header {
+  position: fixed;
+  height: 69px;
+  text-decoration: underline;
+  padding-left: 30px;
+  background-color: black;
+  opacity: 0.9;
+  color: seashell;
+  font-size: 22px;
+
+}
+
+.teaselection {
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  color: seashell;
+}
+
+.content {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  display: block;
+}
+
+.locationlist {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  height: 500px;
+  text-align: center;
+  justify-content: center;
+}
+
+.locations {
+  margin-top: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  justify-content: center;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+.menu {
+
+}
+.menu a {
+  color: seashell;
+  text-decoration: underline;
+  margin-left: 15px;
+}
